@@ -1,3 +1,3 @@
 # cp2019
 
-https://scrum-4.github.io./cp201906
+https://s40823206.github.io/cp2019/
