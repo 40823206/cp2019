@@ -1,3 +1,3 @@
 # cp2019
 
-HHTPS://SCRUM-.GITHUB.IO.CP2019
+https://scrum-4.github.io./cp2019
