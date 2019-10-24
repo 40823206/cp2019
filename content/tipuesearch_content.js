@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': 'About', 'text': 'http://mde.tw/cp2019 \n https://dartpad.dev/embed-inline.html?id=93c15af9fa0a3952ac90149c012713b7 \n \n \n', 'tags': '', 'url': 'About.html'}, {'title': 'usb', 'text': 'http://mde.tw/cp2019 \n', 'tags': '', 'url': 'usb.html'}]};
+var tipuesearch = {"pages": [{'title': '關於', 'text': 'http://mde.tw/cp2019 \n https://dartpad.dev/embed-inline.html?id=93c15af9fa0a3952ac90149c012713b7 \n \n for迴圈程式碼 \n \n', 'tags': '', 'url': '關於.html'}, {'title': 'usb', 'text': 'http://mde.tw/cp2019', 'tags': '', 'url': 'usb.html'}]};
