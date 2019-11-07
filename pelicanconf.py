@@ -42,6 +42,8 @@ DEFAULT_PAGINATION = 10
 PLUGIN_PATHS = ['plugin']
 PLUGINS = ['summary', 'tipue_search', 'sitemap', 'neighbors']
 
+
+
 # for sitemap plugin
 SITEMAP = {
     'format': 'xml',
