@@ -264,11 +264,6 @@ init_mathjax();
 <script src="https://scrum-3.github.io/web/brython/brython.js"></script>
 <script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
 -->
-<p></p>
-<p>請輸入所要轉換的重量<br/>以數字加上 kg 或 lb:<br/><br/><input id="temp" max="30" min="1" type="text" value="20kg"/> <input id="submit" type="button" value="換算"/><br/> <br/>轉換結果:<br/><br/><label id="output"></label></p>
-<script src="/../cp2019/downloads/dart_ex/weight/weight.js"></script>
-<p><canvas height="200" id="canvas" width="300"></canvas> <button id="button">Clear Canvas</button> <button id="fr">Draw FR</button> <button id="roc">Draw ROC</button> <button id="jp">Draw JP</button> <button id="ru">Draw RU</button> <button id="ne">Draw NE</button> <button id="ge">Draw GE</button> <button id="uk">Draw UK</button></p>
-<script src="/../cp2019/downloads/dart_ex/flag/flag.js"></script>
 <script>
 function getDart(dirname){
     source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823206&gh_repo=cp2019&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
@@ -295,17 +290,31 @@ document.getElementById("iframe").width = 800 ;
 document.getElementById("iframe").height = 600 ;
 }
 </script>
+<!-- 取 Dart 程式的按鈕 -->
 <h4>純 Dart 程式</h4>
-<p><button onclick="getDart('weight-dart')">重量轉換</button></p>
+<p><button onclick="getDart('weight')">重量</button></p>
 <h4>Html 程式</h4>
-<p><button onclick="getHtmlDart('weight')">重量轉換</button></p>
-<p><button onclick="getHtmlDart('flag')">各國國旗</button></p>
+<p><button onclick="getHtmlDart('weight_change')">重量轉換</button> <button onclick="getHtmlDart('national_flag')">各國國旗</button></p>
 <!-- 內建放入的 Dart 原始碼 -->
 <p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
-<p><br/><iframe height="600" id="iframe" src="https://dartpad.dev/embed-inline.html?id=a657ac1d942dd85a438c229c7d3bcc83" width="800"></iframe>.</p>
-<!-- for site wrap -->
-<p></p>
-<!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+<p><iframe dartpad="" dev="" embed-inline="" height="600" html="" https:="" id="iframe" src="" width="800"></iframe></p>
+<p>請輸入所要轉換的重量以數字加上 KG 或 LB:<br/><input id="weight" max="30" min="0" type="text" value="10KG"/> <input id="submit" type="button" value="換算"/><br/> <br/>轉換結果:<br/><br/><label id="output"></label></p>
+<p>
+<script src="https://40823206.github.io/cp2019/downloads/dart_ex/weight_change/weight_change.js"></script>
+</p>
+<p><canvas height="200" id="canvas" width="300"></canvas></p>
+<p><button id="button">Clear Canvas</button> <button id="roc">Draw ROC</button> <button id="jpn">Draw JPN</button> <button id="fra">Draw FRA</button> <button id="rus">Draw RUS</button> <button id="usa">Draw USA</button> <button id="uk">Draw UK</button> <button id="deu">Draw DEU</button> <button id="nld">Draw NLD</button></p>
+<p><!-- footer --></p>
+<div class="container">
+<div class="row pt-3 mx-auto">
+<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> Copyright ©
+<script>
+document.write(new Date().getFullYear());
+</script>
+All rights reserved | This template is made with <i aria-hidden="true" class="icon-heart"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+</div>
+</div>
+<p><!-- for footer --> <!-- for site wrap --> <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
 <script src="/get_page/cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
 <script src="/get_page/cmsimde/static/chimper/js/jquery-ui.js"></script>
 <script src="/get_page/cmsimde/static/chimper/js/popper.min.js"></script>
@@ -316,9 +325,9 @@ document.getElementById("iframe").height = 600 ;
 <script src="/get_page/cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
 <script src="/get_page/cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
 <script src="/get_page/cmsimde/static/chimper/js/aos.js"></script>
-<p>&lt;!--</p>
-<script src="/get_page/cmsimde/static/chimper/js/typed.js"></script>
-<script>
+<!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
                     var typed = new Typed('.typed-words', {
                     strings: ["Web Apps"," WordPress"," Mobile Apps"],
                     typeSpeed: 80,
@@ -328,5 +337,7 @@ document.getElementById("iframe").height = 600 ;
                     loop: true,
                     showCursor: true
                     });
-                    
-</script>
+                    </script>
+            -->
+<script src="/get_page/cmsimde/static/chimper/js/main.js"></script>
+</p>
