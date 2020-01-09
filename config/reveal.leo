@@ -101,9 +101,6 @@ Created by [KMOlab](http://lab.kmol.info/)
 &lt;iframe src="https://dartpad.github.io/embed-html.html?gh_owner=40823206&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/flutter0&amp;theme=dark" width="800" height="550"&gt;&lt;/iframe&gt;
     &lt;/script&gt;
     &lt;section&gt;
-&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
 </t>
 <t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
