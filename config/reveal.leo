@@ -28,6 +28,12 @@
 <v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
+<v t="leo.20200109134919.1"><vh>1</vh>
+<v t="leo.20200109134927.1"><vh>1-1</vh></v>
+</v>
+<v t="leo.20200109135022.1"><vh>2</vh>
+<v t="leo.20200109135029.1"><vh>2-2</vh></v>
+</v>
 <v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
@@ -67,11 +73,11 @@ Created by [KMOlab](http://lab.kmol.info/)
 </t>
 <t tx="leo.20180902120523.12"># 目錄
 
-* [溫度轉換](
-* 國旗
-* 亂數分組
-* 查驗考試
-* 重量轉換
+* [溫度轉換](https://40823206.github.io/cp2019/reveal/index.html#/2)
+* [國旗]()
+* [for迴圈]()
+* [查驗考試]()
+* [重量轉換]()
 * 心得
 
 </t>
@@ -92,12 +98,12 @@ Created by [KMOlab](http://lab.kmol.info/)
 						
 </t>
 <t tx="leo.20180902120523.15">#溫度轉換
-&lt;iframe width="800" height="550" src="https://dartpad.github.io/embed-html.html?gh_owner=40823206&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/national_flag&amp;theme=dark" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
+&lt;iframe src="https://dartpad.github.io/embed-html.html?gh_owner=40823206&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/flutter0&amp;theme=dark" width="800" height="550"&gt;&lt;/iframe&gt;
+    &lt;/script&gt;
+    &lt;section&gt;
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
 </t>
 <t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -110,34 +116,12 @@ $$I = \int \rho R^{2} dV$$
 
 						
 </t>
-<t tx="leo.20180902120523.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
+<t tx="leo.20180902120523.17">#查驗考試
+&lt;iframe width="560" height="315" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" src="https://youtu.be/rgxigxsFaTU?t=10"&gt;&lt;/iframe&gt;&lt;/p&gt;
+    &lt;/script
+&lt;section&gt;
+&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;</t>
 <t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -147,12 +131,8 @@ make.start()
 
 						
 </t>
-<t tx="leo.20180902120523.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
+<t tx="leo.20180902120523.19">#心得
+經過這學期的課程，讓我認識到從未接觸過的程式，Github、Dartpad都是陌生的，所以在課堂中就必須更加認真，了解每個文字符號代表的用意，這門課相當的有趣，謝謝老師</t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
 @tabwidth -4
@@ -323,5 +303,23 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200109134919.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200109134927.1">#for迴圈
+&lt;iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823206&amp;amp;gh_repo=cp2019&amp;amp;gh_path=downloads/dart_ex/for&amp;amp;theme=dark" width="800"&gt;&lt;/iframe&gt;
+    &lt;/script&gt;</t>
+<t tx="leo.20200109135022.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20200109135029.1">#國旗
+&lt;iframe src="https://dartpad.github.io/embed-html.html?gh_owner=40823206&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/temp1&amp;theme=dark" width="800" height="550"&gt;&lt;/iframe&gt;
+    &lt;/script&gt;</t>
 </tnodes>
 </leo_file>

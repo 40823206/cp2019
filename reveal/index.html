@@ -81,20 +81,28 @@ Created by [KMOlab](http://lab.kmol.info/)
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-#國旗
-<iframe src="https://dartpad.github.io/embed-html.html?gh_owner=40823206&gh_repo=cp2019&gh_path=downloads/dart_ex/temp1&theme=dark" width="800" height="550"></iframe>
     </script>
+</section>
 
 
-<section>
+
+						
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
 #for迴圈
 <iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823206&amp;gh_repo=cp2019&amp;gh_path=downloads/dart_ex/for&amp;theme=dark" width="800"></iframe>
     </script>
-    
-<section>
+    </script>
+</section>
+<section data-markdown>
+    <script type="text/template">
+<!-- 請注意, @others 不可以內縮 -->
+#國旗
+<iframe src="https://dartpad.github.io/embed-html.html?gh_owner=40823206&gh_repo=cp2019&gh_path=downloads/dart_ex/temp1&theme=dark" width="800" height="550"></iframe>
+    </script>
+    </script>
+</section>
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
@@ -104,64 +112,16 @@ Created by [KMOlab](http://lab.kmol.info/)
 <section>
 <section data-markdown>
     <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
+    </script>
+</section>
+
+
+
+						
+<section data-markdown>
+    <script type="text/template">
 #心得
-經過這學期的課程，讓我認識到從未接觸過的程式，Github、Dartpad都是陌生的，所以在課堂中就必須更加認真，了解每個文字符號代表的用意，這門課相當的有趣，謝謝老師。
-
-    
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-    </script>
-</section>
-
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-## 使用 iframe 導入影片
-
-### 導入影片 template
-
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+經過這學期的課程，讓我認識到從未接觸過的程式，Github、Dartpad都是陌生的，所以在課堂中就必須更加認真，了解每個文字符號代表的用意，這門課相當的有趣，謝謝老師
     </script>
 </section>
 
